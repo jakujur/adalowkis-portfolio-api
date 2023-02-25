@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * painting router
+ * bio router
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::painting.painting');
+module.exports = createCoreRouter('api::bio.bio');

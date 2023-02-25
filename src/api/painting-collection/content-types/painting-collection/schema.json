@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "painting_collections",
+  "info": {
+    "singularName": "painting-collection",
+    "pluralName": "painting-collections",
+    "displayName": "Painting Collections",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Collection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "collection.collection"
+    }
+  }
+}

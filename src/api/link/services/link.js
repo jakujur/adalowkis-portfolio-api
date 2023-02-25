@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * painting service
+ * link service
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::painting.painting');
+module.exports = createCoreService('api::link.link');
