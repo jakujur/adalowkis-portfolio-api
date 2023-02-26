@@ -6,13 +6,24 @@
   },
   "options": {},
   "attributes": {
-    "painting": {
+    "paintings": {
       "type": "component",
       "repeatable": true,
       "component": "artwork.artwork"
     },
     "name": {
       "type": "string"
+    },
+    "cover_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     }
   }
 }
