@@ -12,10 +12,25 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Collection": {
+    "paintings": {
       "type": "component",
-      "repeatable": false,
-      "component": "collection.collection"
+      "repeatable": true,
+      "component": "artwork.artwork"
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "cover_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     }
   }
 }
