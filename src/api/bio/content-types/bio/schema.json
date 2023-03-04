@@ -13,18 +13,13 @@
   "pluginOptions": {},
   "attributes": {
     "bio": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
-    "singleEvents": {
-      "displayName": "Event",
-      "type": "component",
-      "repeatable": true,
-      "component": "event.event"
-    },
-    "groupEvents": {
-      "type": "component",
-      "repeatable": true,
-      "component": "event.event"
+    "events": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::event.event"
     }
   }
 }
